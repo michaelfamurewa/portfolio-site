@@ -18,7 +18,7 @@ nav {
 
 hr {
     width: 850px;
-    color: #0FC2C0;
+    color: lightsteelblue;
     transform: translateY(-80px);
     margin: 0;
 }
@@ -30,15 +30,16 @@ header {
     justify-content: center;
     transform: translateX(450px);
     border: none;
-    padding-top: 150px;
+    padding-top: 30px;
+    padding-bottom: 80px;
     margin: 0;
 }
 
-a {
+nav a {
     text-decoration: none;
     padding: 5px;
     font-size: 24px;
-    color: slategrey;
+    color: lightsteelblue;
 }
 
 nav a:nth-of-type(1) {
@@ -60,13 +61,13 @@ nav a:hover {
 
 h1 {
     padding: 120px;
-    color: white;
+    color: lightsteelblue;
     font-size: 86px;
 }
 
 h2 {
     padding-left: 120px;
-    color: white;
+    color: lightsteelblue;
     font-size: 40px;
     transform: translateY(-210px);
 }
@@ -86,7 +87,7 @@ header p {
 
 img {
     display: flex;
-    transform: translateY(800px);
+    transform: translateY(600px);
     margin-left: 1200px;
     padding-bottom: 50px;
     border: solid white 20px;
@@ -94,9 +95,9 @@ img {
 }
 
 section:nth-of-type(1) {
-    padding-top: 600px;
+    background-color: #034159;
     padding-left: 150px;
-    padding-bottom: none;
+    padding-bottom: 50px;
     border: none;
     margin: 0;
     block-size: 200px;
@@ -118,7 +119,7 @@ section h2 {
     width: 300px;
     border: none;
     margin: 0;
-    color: white;
+    color: lightsteelblue;
     font-size: 60px;
     border: solid;
     border-color: #0FC2C0;
@@ -141,4 +142,46 @@ p {
 section p {
     transform: translateY(-160px);
     width: 1000px
+}
+
+#experience {
+    transform: translateY(350px);
+    background-color: #034159;
+    padding-bottom: 50px;
+}
+
+#experience ul {
+    transform: translateY(-190px);
+    font-size: 28px;
+    color: slategrey;
+    text-align: left;
+    margin-top: 0;
+}
+
+#projects {
+    transform: translateY(350px);
+    padding-bottom: 50px;
+}
+
+#contact {
+    transform: translateY(420px);
+    background-color: #034159;
+    padding-bottom: 10px;
+    height: 100px;
+}
+
+header a {
+    border: solid #0FC2C0;
+    font-family: 'NTR';
+    padding: 10px 50px;
+    margin-right: 70px;
+    text-decoration: none;
+    color: #0FC2C0;
+    border-radius: 0.5em;
+}
+
+header a:hover {
+    background-color: #0FC2C0;
+    cursor: pointer;
+    color: #012340;
 }
